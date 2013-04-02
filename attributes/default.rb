@@ -16,8 +16,8 @@
 # limitations under the License.
 #
 
-default['libevent']['version']  = "2.0.19-stable"
+default['libevent']['version']  = "2.0.21-stable"
 default['libevent']['dir']      = "libevent-#{default['libevent']['version']}"
 default['libevent']['tar']      = "#{default['libevent']['dir']}.tar.gz"
 default['libevent']['url']      = "https://github.com/downloads/libevent/libevent/#{default['libevent']['tar']}"
-default['libevent']['checksum'] = "1591fb411a67876a514a33df54b85417b31e01800284bcc6894fc410c3eaea21"
+default['libevent']['checksum'] = "b2405cc9ebf264aa47ff615d9de527a2"
