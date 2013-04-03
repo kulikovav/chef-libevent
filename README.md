@@ -2,5 +2,5 @@
 
 ## Description
 
-Installs libevent from source.
+Installs libevent
 See: http://libevent.org/
