@@ -3,4 +3,7 @@
 # Recipe:: default
 #
 
-package 'libevent-dev'
+case node.platform
+when "debian", "ubuntu"
+    package 'libevent-dev'
+end
